@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg,#24006b,#f42f8c);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content > h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 100;
+}
+.content > .content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

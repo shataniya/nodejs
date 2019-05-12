@@ -1,0 +1,10 @@
+.header{
+    background: pink
+}
+
+.font{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    color: lightblue;
+}

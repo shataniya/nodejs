@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>product</title>
+        <link rel="stylesheet" href="css/public/header.css">
+        <link rel="stylesheet" href="css/public/prolist.css">
+        <link rel="stylesheet" href="css/product.css">
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+        <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <%- include public/header.html %>
+        <div class="main-content">
+            <%- include public/prolist.html %>
+            <div class="product-page">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">商品管理</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">商品列表</li>
+                    </ol>
+                </nav>
+                <div class="card mb-3" style="width: 100%;">
+                    <div class="card-header">搜索</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <form class="form-inline" action="">
+                                    名称
+                                <input type="text" class="form-control mx-2" name="ProductName" placeholder="input ProductName">
+                                <input type="submit" class="form-control" value="开始搜索">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <table class="table table-light table-striped">
+                    <thead>
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

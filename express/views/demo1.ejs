@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>demo1</title>
+    </head>
+    <body>
+        <h2>我是一个通过ejs显示的文件</h2>
+        <%= str %>
+        <ul>
+            <% colors.map(color=>{ %>
+                <li>
+                    <%= color  %>
+                </li>   
+            <% }) %>
+        </ul>
+    </body>
+</html>
